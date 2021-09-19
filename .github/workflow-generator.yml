@@ -1,0 +1,6 @@
+global:
+  values:
+    public: true
+  workflows:
+    - file: go.yml
+    - file: workflow-generator.yml
