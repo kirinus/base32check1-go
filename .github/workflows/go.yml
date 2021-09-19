@@ -19,10 +19,6 @@ name: Go
     - go.sum
     - Makefile
   workflow_dispatch: null
-<<<<<<< HEAD
-env: {}
-=======
->>>>>>> d67b374 (fix: initial commit)
 jobs:
   test:
     strategy:
