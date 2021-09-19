@@ -9,13 +9,13 @@ This implementation is a port from [base32check-python](https://github.com/bitma
 Use go get
 
 ```sh
-go get github.com/kirinus/base32check1-go/v1
+go get github.com/kirinus/base32check1-go
 ```
 
 Then import the base32check1 package into your own code
 
 ```sh
-import "github.com/kirinus/base32check1-go/v1"
+import "github.com/kirinus/base32check1-go"
 ```
 
 ## Usage
