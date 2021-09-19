@@ -1,4 +1,4 @@
-module github.com/kirinus/base32check1-go/v1
+module github.com/kirinus/base32check1-go
 
 go 1.17
 
