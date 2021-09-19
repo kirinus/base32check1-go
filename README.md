@@ -30,6 +30,8 @@ base32check1.Compute("CAFEDEAD") // "A"
 base32check1.Validate("CAFEDEAD") // true
 ```
 
+See [Documentation](https://pkg.go.dev/github.com/kirinus/base32check1-go#section-documentation) for more details.
+
 ## Changelog
 
 See the GitHub [release history](https://github.com/kirinus/base32check1-go/releases).
