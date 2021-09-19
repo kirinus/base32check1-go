@@ -19,6 +19,7 @@ name: Go
     - go.sum
     - Makefile
   workflow_dispatch: null
+env: {}
 jobs:
   test:
     strategy:
