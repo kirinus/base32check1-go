@@ -9,25 +9,13 @@
   "commitMessageExtra": "{{#if isMajor}}v{{{newMajor}}}{{else}}{{#if isSingleVersion}}v{{{newVersion}}}{{else}}{{{newValue}}}{{/if}}{{/if}}",
   "commitMessageTopic": "{{depName}}",
   "enabledManagers": [
-    "argocd",
     "docker-compose",
     "dockerfile",
-    "github-actions",
-    "helm-requirements",
-    "helm-values",
-    "helmfile",
-    "helmv3",
-    "homebrew",
-    "html",
-    "kubernetes",
-    "kustomize",
+    "gomod",
     "nodenv",
     "npm",
     "nvm",
-    "pre-commit",
-    "regex",
-    "terraform-version",
-    "terraform"
+    "pre-commit"
   ],
   "packageRules": [
     {
