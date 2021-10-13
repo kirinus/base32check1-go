@@ -6,7 +6,7 @@
   "branchPrefix": "chore/renovate/",
   "commitBodyTable": true,
   "commitMessageAction": "Pin",
-  "commitMessageExtra": "{{#if isMajor}}v{{{newMajor}}}{{else}}{{#if isSingleVersion}}v{{{newVersion}}}{{else}}{{{newValue}}}{{/if}}{{/if}}",
+  "commitMessageExtra": "{{#if isMajor}}{{{newMajor}}}{{else}}{{#if isSingleVersion}}{{{newVersion}}}{{else}}{{{newValue}}}{{/if}}{{/if}}",
   "commitMessageTopic": "{{depName}}",
   "enabledManagers": [
     "docker-compose",
