@@ -1,6 +1,6 @@
 module github.com/kirinus/base32check1-go
 
-go 1.17
+go 1.23.5
 
 require github.com/stretchr/testify v1.7.0
 
